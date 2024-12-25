@@ -11,12 +11,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <style>
-    .container{
+    body{
       background-color:  hsl(212, 45%, 89%);
+    }
+    h1{
+      text-align: center;
+      margin-top: 40px;
+    }
+    .container{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 70vh;
+    }
+    h1{
+      margin-bottom: 50px;
     }
     .box{
       max-width: 250px;
@@ -35,7 +44,11 @@
   </style>
 </head>
 <body>
-
+  <header>
+    <h1>Qr Code Component</h1>
+  </header>
+<main>  
+  
   <div class="container">
     <div class="box">
       <div class="qr-code">
@@ -47,6 +60,7 @@
       </div>
     </div>
   </div>
- 
+</main>
+
 </body>
 </html>
